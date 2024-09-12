@@ -1,0 +1,13 @@
+.heading{
+    font-size: 80px;
+}
+
+.subtitle{
+    margin-top: 30;
+    background-color: blue;
+}
+
+.text{
+    background-color: gray;
+    padding-top: 20;
+}
