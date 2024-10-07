@@ -1,0 +1,46 @@
+.blue{
+    background-color: blue;
+    width: 260px;
+    height: 300px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.black{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.green{
+    background-color: green;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 0px;
+    right: 0px;
+}
+.white{
+    background-color: gray;
+    display: flex;
+    width: max;
+    height: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.green_w{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+}
+
