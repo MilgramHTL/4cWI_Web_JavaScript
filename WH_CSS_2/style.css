@@ -1,0 +1,49 @@
+.flexbox{
+    display: flex;
+    width: 1000;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.orange1{
+    background-color: orange;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+}
+
+.orange2{
+    background-color: orange;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.black{
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0px;
+    right: 0px;
+}
