@@ -1,0 +1,50 @@
+.flex{
+    width: max-width;
+    height: 300px;
+    display: flex;
+    align-items: space-between;
+    justify-content: left;
+    margin: 1px;
+    margin-right: 3px;
+    border: 1px solid black;
+}
+
+.green{
+    display: flex;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blackg{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.blackt{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.blackb{
+    width: 30px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+}
