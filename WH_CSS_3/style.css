@@ -1,6 +1,7 @@
 .flex{
     width: max-width;
     height: 300px;
+    position: relative;
     display: flex;
     align-items: space-between;
     justify-content: left;
