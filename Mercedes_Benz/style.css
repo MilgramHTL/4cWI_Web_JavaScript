@@ -1,0 +1,17 @@
+.black{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 84px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blackbox{
+    display: flex;
+    width: 5vw;
+    height: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
