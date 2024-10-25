@@ -28,5 +28,84 @@
 }
 
 .background{
-    display: cover;
+    position: relative;
+    object-fit: cover;
+}
+
+.gradient{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg,#fff,rgba(0,0,0,.001) 50%),linear-gradient(90deg,#fff,rgba(0,0,0,.001) 50%);
+}
+
+.gradientcontent{
+    margin-top: 18vw;
+    margin-left: 10vw;
+}
+
+.gradientcontent h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.gradientcontent p{
+    margin-top: 2vw;
+    color: black;
+    font-size: 30px;
+}
+
+.minimenu{
+    display: flex;
+    font-size: large;
+    width: fit-content;
+    height: 100px;
+    margin-top: 1vw;
+    justify-content: space-between;
+}
+
+.Mehr{
+    text-align: center;
+    padding-top: 15px;    
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    border: black solid 1px;
+}
+
+.Angebot{
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    width: 180px;
+    height: 30px;
+    border: black solid 1px;
+}
+
+.text{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 3vw;
+}
+
+.logos{
+    width: 100%;
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.MercedesBenz{
+    width: 200px;
+    height: 4vw;
+    border: black solid 1px;
+    background-color: black;
 }
