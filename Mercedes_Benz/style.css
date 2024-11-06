@@ -46,7 +46,7 @@
 
 .gradientcontent{
     margin-top: 18vw;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 
 .gradientcontent h1{
@@ -97,6 +97,10 @@
 }
 
 .logos{
+    margin-top: 5vw;
+    display: flex;
+    position: sticky;
+    top: 20px;
     width: 100%;
     height: 4vw;
     align-items: center;
@@ -104,8 +108,88 @@
 }
 
 .MercedesBenz{
-    width: 200px;
-    height: 4vw;
-    border: black solid 1px;
+    width: 150px;
+    height: 3vw;
+    border: solid 1px gray;
+    padding-top: 2vw;
+    padding-left: 2vw;
     background-color: black;
+    color: white;
+}
+
+.AMG{
+    width: 150px;
+    height: 3vw;
+    border: solid 1px gray;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    background-color: white;
+}
+
+.MaybachL{
+    width: 150px;
+    height: 3vw;
+    border: solid 1px gray;
+    padding-top: 2vw;
+    padding-left: 2vw;    
+    background-color: white;
+}
+
+h2{
+    margin-top: 2px;
+    margin-left: 5vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.grid{
+    margin-top: 35px;
+    height: 624px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: 624px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.gridbox img {
+    width: 100%;
+}
+
+.gridimage{
+    object-fit: cover;
+    height: 100%;
+}
+
+#grid1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-size: cover;
+    height: 624px;
+}
+
+#grid2{
+    background-size: cover;
+    height: 624px;
+}
+
+#grid3{
+    background-size: cover;
+    height: 624px;
+}
+
+#grid4{
+    background-size: cover;
+    height: 624px;
+}
+
+#grid5{
+    background-size: cover;
+    height: 624px; 
+}
+
+.gridbox img {
+    width: 100%;
 }
