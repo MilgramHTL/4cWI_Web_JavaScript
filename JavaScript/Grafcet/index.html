@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafcet - Walzenvereinzelung</title>
+    <style>
+        .grafcet-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .step {
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            margin: 10px 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+        .step h2 {
+            margin: 0;
+            font-size: 1.2em;
+            border-bottom: 2px solid black;
+            padding: 5px;
+        }
+        .transition {
+            border-left: 2px solid black;
+            height: 40px;
+            margin: 0;
+        }
+        .condition {
+            margin: 5px 0;
+            font-style: italic;
+            position: absolute;
+            left: 120px;
+            width: 200px;
+        }
+        .action {
+            color: blue;
+            margin: 5px 0;
+            font-size: 0.9em;
+            position: absolute;
+            right: -220px;
+            width: 200px;
+            text-align: left;
+        }
+        .step-content {
+            position: relative;
+        }
+        
+        /* New styles to prevent overlap */
+        .step .action:nth-child(2) { top: 10px; }
+        .step .action:nth-child(3) { top: 35px; }
+        .step .action:nth-child(4) { top: 60px; }
+    </style>
+</head>
+<body>
+    <div class="grafcet-container">
+        <h1>Grafcet: Walzenvereinzelung</h1>
+        
+        <div class="step">
+            <h2>Schritt 0</h2>
+            <div class="action">Initialisierung</div>
+            <div class="action">Alle Zylinder in Ausgangsposition</div>
+            <div class="action">Alle Sensoren im Ruhezustand</div>
+        </div>
+        
+        <div class="transition"></div>
+        <div class="condition">Starttaster (I1) gedrückt</div>
+        
+        <div class="step">
+            <h2>Schritt 1</h2>
+            <div class="action">Zylinder 1 fährt vor (A1)</div>
+            <div class="action">Vereinzelung erste Walze</div>
+        </div>
+        
+        <div class="transition"></div>
+        <div class="condition">Sensor I2 erkennt Walzenbewegung</div>
+        
+        <div class="step">
+            <h2>Schritt 2</h2>
+            <div class="action">Zylinder 1 zurück (A1)</div>
+        </div>
+        
+        <div class="transition"></div>
+        <div class="condition">Walze entfernt</div>
+        
+        <div class="step">
+            <h2>Schritt 3</h2>
+            <div class="action">Zylinder 2 aktiviert</div>
+            <div class="action">Nächste Walze vereinzeln</div>
+        </div>
+    </div>
+</body>
+</html>
