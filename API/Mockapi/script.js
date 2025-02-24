@@ -13,7 +13,7 @@ function loadData() {
           "<div><div>" +
             Games.creationDate +
             "</div><img width='50px' src='" +
-            Games.trailer.image +
+            Games.trailerImage +
             "?id=" +
             Math.random() +
             " '/></div>"
